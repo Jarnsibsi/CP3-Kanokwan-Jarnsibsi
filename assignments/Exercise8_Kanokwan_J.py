@@ -1,11 +1,11 @@
 usernameInput = input("Username: ")
 passwordInput = input("Password: ")
 if usernameInput == "owner" and passwordInput == "1234":
-    print("----Welcome J shop----")
+    print("----Welcome to J shop----")
     print("1.Apple  10 THB")
     print("2.Pen     5 THB")
     print("3.Water  15 THB")
-    print("----------------------")
+    print("-------------------------")
     userSelected = int(input("Please select items (e.g., 1 2 3): "))
     if userSelected ==1:
         price = int(input("How many Apple you want to buy ? : "))
